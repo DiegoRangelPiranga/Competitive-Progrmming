@@ -11,7 +11,7 @@ typedef unsigned long long int ull;
 typedef vector <int> vi;
 typedef pair <int, int> ii;
 
-#define maxn 200005
+#define maxn 200003
 
 vi g[maxn];
 vector <ll> fun;
