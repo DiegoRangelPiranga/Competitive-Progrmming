@@ -30,7 +30,6 @@ void dfs(int u, int p, int h, int w){
   dp[u][0] = p;
   lvl[u] = h;
   dist[u] = w;
-  //calcula pais
   for(int i = 1; i < LOG; i++){
     if(dp[u][i-1] != -1){
       dp[u][i] = dp[dp[u][i-1]][i-1];
