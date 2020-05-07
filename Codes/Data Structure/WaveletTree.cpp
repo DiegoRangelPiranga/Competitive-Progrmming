@@ -53,6 +53,6 @@ struct wavelet {
 
 int main(){
   int v[100000];
-  wavelet t(v+1, v+n+1, 1, 100001);
+  wavelet t(v+1, v+n+1, 1, 100000);
   return 0;
 }
