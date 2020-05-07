@@ -124,3 +124,13 @@ void solveUpdate(int u, int v, int _lca, int var){
     solveUpdate(u, v, var);
   }
 }
+int main(){
+  //... valor esta em inhld[posarr[i]]
+  memset(dp, -1, sizeof dp);
+  memset(head, -1, sizeof  head);
+  cnt = pos = 0;
+  dfs(0, 0, 0);
+  hld(0, 0, arr[0]);
+  build(1, 0, pos-1);
+  return 0;
+}
