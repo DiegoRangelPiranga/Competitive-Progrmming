@@ -88,7 +88,6 @@ int main(){
 		while(q--){
 			int op;
 			cin >> op;
-			//debug("OK");
 			if(op&1){
 				int x, y, k;
 				cin >> x >> y >> k;
