@@ -1,4 +1,4 @@
-#define maxn 1000050
+#define maxn 1005050
 
 int lcp[maxn];
 
