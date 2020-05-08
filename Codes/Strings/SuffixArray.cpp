@@ -53,3 +53,10 @@ void SA(){
     }
 	}
 }
+
+int main(){
+  pp += "$";
+  n = sz(pp);
+  SA();
+  return 0;
+}
