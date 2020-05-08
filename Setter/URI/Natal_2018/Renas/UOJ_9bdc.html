@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI G - Renas do Papai Noel</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 3030 - Renas do Papai Noel" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://urionlinejudge.r.worldssl.net/repository/contest.css" />
+		<script type="text/javascript" src="https://urionlinejudge.r.worldssl.net/judge/js/math-jax/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | G</span>
+			<h1>Renas do Papai Noel</h1>
+			<div>
+				<p>Por Diego Rangel, FACIT <img src='https://urionlinejudge.r.worldssl.net/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p style="text-align:justify">Uma doença tem atacado as renas e deixando-as impossibilitadas de voar para realizar as entregas dos presentes de Natal.</p>
+
+<p style="text-align:justify">Os duendes especialistas em renas, conseguiram identificar um fato bastante curioso sobre essa doença, que ela só é contagiosa se duas ou mais renas doentes estiverem em um mesmo estábulo.</p>
+
+<p style="text-align:justify">Cada rena está em um quarto que é conectado a outro quarto por um corredor com&nbsp;<span class="math-tex">\(W\) metros, onde desses quartos conectados formam um estabulo. A solução, proposta pelos duendes especialistas, foi que o velho Noel removesse alguns corredores para a doença fosse controlada. Para remover um corredor de <span class="math-tex">\(W\) metros é necessário <span class="math-tex">\(W\)&nbsp;horas e como está muito próximo do Natal, o velho Noel pediu a sua ajuda para minimizar o tempo.</p>
+
+<p style="text-align:justify">Ajude o Papai Noel determinar o menor tempo possível para que a doença não se espalhe.</p>
+
+<p style="text-align:justify"><em>Dica do Noel: Inicialmente existe apenas um estábulo, ou seja, todos os quartos estão conectados e não existe um caminho circular.</em></p>
+
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p style="text-align:justify">A primeira linha contém dois inteiros <span class="math-tex"><strong>N</strong>&nbsp;<span class="math-tex">\((1 \leq N \leq 2 \times 10^{5})\) o número renas <strong>M </strong><span class="math-tex">\((0 \leq M \leq N)\) e a quantidade de renas que foram diagnósticas com a doença. Seguem então <span class="math-tex">\(M
+\) inteiros, onde o <span class="math-tex">\(M_{i}\) inteiro é o índice do quarto da rena doente. Depois seguem <span class="math-tex">\(N-1
+\) linhas cada uma com três inteiros <strong>U, V, W</strong>, onde <span class="math-tex">\((U \neq V)\)&nbsp;e <span class="math-tex">\( (0 \leq U, V &lt; N)\)&nbsp;e <span class="math-tex">\((1 \leq W \leq 1 \times 10^{6})\) que indicam que existe um corredor de tamanho <span class="math-tex">\(W\)&nbsp;que conecta os quartos <span class="math-tex">\(U\) e <span class="math-tex">\(V\) <em>(corredor pode ser usado em qualquer direção)</em>.</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p style="text-align:justify">O tempo mínimo para que a doença não espalhe.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>6 3</p>
+
+<p>0 5 3</p>
+
+<p>0 1 5</p>
+
+<p>0 4 3</p>
+
+<p>0 3 3</p>
+
+<p>2 3 1</p>
+
+<p>5 4 9</p>
+
+						</td>
+						<td>
+							<p>6</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+			<table>
+				<thead>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+								<p>7 4</p>
+
+<p>0 1 2 3</p>
+
+<p>0 1 3</p>
+
+<p>1 2 5</p>
+
+<p>2 3 6</p>
+
+<p>6 0 1</p>
+
+<p>4 5 3</p>
+
+<p>6 5 4</p>
+
+						</td>
+						<td>
+							<p>14</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="footer">
+				Contest de Natal 2018
+			</p>
+		</div>
+	</body>
+</html>
