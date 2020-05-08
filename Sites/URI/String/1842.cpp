@@ -128,20 +128,5 @@ int main(){
   else{
     cout << "*" << "\n";
   }
-  //vector <string> ans;
-  //for(int i = 0; i < n; i++){
-		//cout << suffix[i] << "\n";
-		//cout << pp.substr(suffix[i]) << "\n";  
-    //cout << lcp[i] << " " << pp.substr(suffix[i]) << " and " << pp.substr(suffix[i+1])<< "\n";
-    /*if(lcp[i]-1 == nn){
-      string t;
-      for(int j = suffix[i]; j < suffix[i]+nn; j++){
-        t+= pp[j];
-      }
-      ans.push_back(t);
-    }*/
-  //}
-  //sort(all(ans));
-  //cout << ans[0] << "\n";
   return 0;
 }
