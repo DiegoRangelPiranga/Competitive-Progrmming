@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI H - Passeio de Trenó pela Terra</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema X - Passeio de Trenó pela Terra" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://urionlinejudge.r.worldssl.net/repository/contest.css" />
+		<script type="text/javascript" src="https://urionlinejudge.r.worldssl.net/judge/js/math-jax/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | H</span>
+			<h1>Passeio de Trenó pela Terra</h1>
+			<div>
+				<p>Por Diego Rangel, FACIT <img src='https://urionlinejudge.r.worldssl.net/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+<p>Então é Natal! E Papai Noel precisa realizar uma série de entregas de presentes em diferentes localidades do mundo.</p>
+
+<p>Para quem não sabe, as renas estão doentes e ele precisará utilizar o trenó movido a gasolina para entregar os presentes.</p>
+
+<p>Um fato curioso é que as estradas entre as cidades são perfeitamente retas e existe um posto de gasolina em cada cidade. Noel é um cara muito esperto e, para evitar problemas, ele enche o tanque com um valor específico <span class="math-tex">\(X\) que é o valor da maior estrada entre as cidades que o Noel está viajando, pois assim ele sabe que nunca ficará sem gasolina no meio do caminho entre duas cidades e os presentes não serão roubados. Além disso, ele sempre seleciona o caminho onde a maior estrada tenha o menor tamanho possível.</p>
+
+<p>Você pode ajudar o nobre Noel a determinar qual o valor <span class="math-tex">\(X\) de gasolina ele deve utilizar?</p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A primeira linha é composta por dois inteiros <span class="math-tex"><strong>N</strong> <span class="math-tex">\((1 \leq N \leq 1\times 10^{5})\) e <span class="math-tex"><strong>M</strong>&nbsp;<span class="math-tex">\((N-1 \leq M \leq min(2 \times 10^{5}, \frac{N \times (N-1)}{2}))\) que é o número de cidades e o número de estradas. Em seguida vêm <span class="math-tex">\(M
+\) linhas com três inteiros&nbsp;<span class="math-tex"><strong>u, v, w</strong> <span class="math-tex">\((u\neq v) (0 \leq u, v &lt; N) (1 \leq w \leq 1 \times 10^{6})\), indicado que existe uma estrada que conecta <span class="math-tex">\(u\)&nbsp;a <span class="math-tex">\(v
+\)&nbsp;com peso <span class="math-tex">\(w\) <strong>(pode-se usar a estrada em qualquer sentido)</strong>. Após as <span class="math-tex">\(M
+\) linhas, tem um inteiro <span class="math-tex">\(Q\)&nbsp;<span class="math-tex">\((1 \leq Q \leq 1 \times 10^{5})\)&nbsp;que é o número de consultas que o velho Noel realizará. Cada umas das <span class="math-tex">\(Q\)&nbsp;linhas seguintes é composta por dois inteiros <span class="math-tex"><strong>x</strong> e <span class="math-tex"><strong>y</strong>&nbsp;<span class="math-tex">\((0 \leq x, y < N)\)&nbsp;que corresponde a consulta: qual a quantidade&nbsp;<span class="math-tex">\(X\) de gasolina que o velho Noel irá precisar abastecer em cada cidade entre as cidades&nbsp;<span class="math-tex">\(x\) e <span class="math-tex">\(y\).</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>Imprima <span class="math-tex">\(Q\) linhas cada uma com um inteiro <span class="math-tex">\(X\) que é a resposta do dilema o que velho Noel está passado. &nbsp;</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplo de Entrada</td>
+						<td>Exemplo de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>7 11<br />
+0 1 15<br />
+0 2 53<br />
+1 2 40<br />
+1 3 46<br />
+2 4 31<br />
+2 5 29<br />
+3 4 3<br />
+4 5 29<br />
+3 6 11<br />
+4 6 8<br />
+5 6 40<br />
+7<br />
+0 1<br />
+0 3<br />
+0 6<br />
+2 4<br />
+4 6<br />
+5 1<br />
+1 1</p>
+
+						</td>
+						<td>
+							<p>15<br />
+40<br />
+40<br />
+29<br />
+8<br />
+40<br />
+0</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+			<p class="footer">
+				Contest de Natal 2018
+			</p>
+		</div>
+	</body>
+</html>
